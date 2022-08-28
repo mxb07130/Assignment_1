@@ -1,1 +1,2 @@
 print('manoj')
+print('kumar')
