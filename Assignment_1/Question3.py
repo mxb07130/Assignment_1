@@ -1,7 +1,7 @@
 
 # tuple with names of sisters and brothers
-sisters = ("Niha", "Vysh", "Harshi", "Sush", "Sailu")
-brothers = ("Srikar", "Venkat", "Krishna")
+sisters = ("Kavya", "Ramya", "lavanya", "Sirisha", "Sravanthi")
+brothers = ("Manoj", "Narendra", "Sravan")
 print(sisters)
 print(brothers)
 
@@ -17,8 +17,8 @@ print(count_siblings)
 
 #appending father and mother
 
-mother = "Sujatha"
-father= "Radha_Krishna"
+mother = "Latha"
+father= "Krishna_Mohan"
 
 family_members = list(siblings)
 
