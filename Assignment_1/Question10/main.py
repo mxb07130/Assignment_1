@@ -1,15 +1,15 @@
 import numpy as np  #importing important python libraries
 import matplotlib.pyplot as plt  
 import pandas as pd
-path=r"D:\ML\dataset .csv"
+path=r"C:\Users\manoj\SUBJECTS\Machine Learning\Assignments\Assignment_1\dataset .csv"
 data=pd.read_csv(path)#reading the dataset
 print(data)
-x= data['Feature'].values
-y= data['Class'].values
-print(x,y)
+ab= data['Feature'].values
+bc= data['Class'].values
+print(ab,bc)
 #dividing data equally into training and testing data
 from sklearn.model_selection import train_test_split  
-features_tr, features_te, label_tr, label_te= train_test_split(x, y, random_state=0, train_size= 0.5 ) 
+features_tr, features_te, label_tr, label_te= train_test_split(ab, bc, random_state=0, train_size= 0.5 )
 #reshaping the data feature and labes into 2D array
 features_tr = np.array(features_tr).reshape(-1,1)
 features_te = np.array(features_te).reshape(-1,1)
