@@ -1,8 +1,17 @@
-import numpy as np;
+import numpy as np
 
-a=np.random.randint(1,20,15);
-a=a.reshape(3,5);
-print(a)
-a.shape;
-a[np.where(a==np.max(a))]=0;
-print(a)
+
+array = np.random.randint(1, 21, 15)
+array
+
+#1
+array2 = array.reshape((3,5))
+array2
+
+#2
+print(array2.shape)
+
+#3
+np.where(array2 == array2.max(axis = 1)[:,None], 0, array2)
+
+print(array2)
